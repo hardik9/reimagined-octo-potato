@@ -1,3 +1,8 @@
+'''
+creates folder for each filetype in current folder and moves files into their respective extension folder.
+example, all .doc files int folder will be moved in 'doc' subfolder. if 'doc' folder does not exist, it will be created.
+'''
+
 import os, glob
 
 for file in glob.iglob('*.*'):
